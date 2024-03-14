@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #282828;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #2c2e30;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    padding: 0 100px;
+    height: 60px;
+
+}
+nav .logo{
+    cursor: pointer;
+}
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+    margin-left: 330px;
+}
+nav .nav-items a{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 20px;
+}
+nav .nav-items a i{
+    color: #368338e1;
+    padding: 5px;
+    cursor: pointer;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background-color: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border: 1px solid  rgba(155, 155, 155, 0.2);
+}
+nav form .Search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #368338e1;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+nav form button:hover{
+    background-color: #2b652de1;
+}
+.content{
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+
+}
+.content h1{
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content p{
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.content p i{
+    color: #368338e1;
+}
+.content .underline{
+    width: 10%;
+    height: 20px;
+}
+.movie-items{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 2%;
+    padding: 10px;
+    margin-right: 3%;
+}
+.column{
+    float: left;
+    width: 16.66%;
+    cursor: pointer;
+}
+.column img{
+    border-radius: 10px;
+}
+.row::after{
+    content:"";
+    clear: both;
+    
+}
+.column h4,p{
+    color: white;
+
+}
+.column:hover{
+    scale: 1.1;
+
+}
+.column p k{
+    border-style: dashed;
+    color: #368338e1;
+    
+}
